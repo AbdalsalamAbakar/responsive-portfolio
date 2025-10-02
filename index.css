@@ -290,6 +290,14 @@ nav .menu {
     /* max-width: 150%; */
     flex: 0 0 150%;
 }
+@media (max-width:768px) {
+    .first img {
+        margin-left: 0;
+        max-width: 80%;
+        flex: 0 0 80%;
+    }
+    
+}
 
 .second {
     padding: 20px;
