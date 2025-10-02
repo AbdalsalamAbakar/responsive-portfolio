@@ -23,7 +23,7 @@ nav {
 }
 
 nav .menu {
-    /* max-width: 1270px; */
+    max-width: 1270px;
     background: pink;
     margin: auto;
     padding: 0 20px;
@@ -32,7 +32,14 @@ nav .menu {
     align-items: center;
     overflow-x: auto;
     border-radius: 0 0 20px 20px;
-    width: fit-content;
+   
+}
+@media (max-width:768px) {
+    nav .menu {
+        padding: 0 10px;
+        width: 80%;
+    }
+    
 }
 
 .menu .logo a {
@@ -113,7 +120,6 @@ nav .menu {
         z-index: 12;
         transition: all 0.3s ease;
     }
-
     .menu ul a {
         display: block;
         font-size: 23px;
