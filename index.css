@@ -39,6 +39,13 @@ nav .menu {
         padding: 0 10px;
         width: 85%;
     }
+    nav{
+        width: 90%;
+       position: fixed;
+       top: 0;
+       left: 20px;
+       right: 15px;
+    }
     
 }
 
