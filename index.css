@@ -292,12 +292,18 @@ nav .menu {
 }
 @media (max-width:768px) {
     .first img {
-        max-width: 80%;
+        max-width: 90%;
         flex: 1 1 auto;
        display: block;
          margin: 0 auto;
     }
-    
+
+    .hero-img img {
+        max-width: 90%;
+        flex: 1 1 auto;
+       display: block;
+         margin: 0 auto;
+    }
 }
 
 .second {
