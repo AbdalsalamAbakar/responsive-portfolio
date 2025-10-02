@@ -97,7 +97,7 @@ nav .menu {
     display: none;
 }
 
-@media (max-width:940px) {
+@media (max-width:768px) {
     .menu ul {
         display: block;
         position: fixed;
@@ -325,7 +325,7 @@ nav .menu {
     color: rgb(15, 79, 197);
 }
 
-@media (max-width:880px) {
+@media (max-width:768px) {
     .about-container {
         flex-direction: column
     }
@@ -340,7 +340,7 @@ nav .menu {
   flex-wrap: wrap;
 
 }
-@media (max-width:700px) {
+@media (max-width:768px) {
     .skill-container {
         flex-direction: column;
         align-items: center;
